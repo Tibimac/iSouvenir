@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52C804DA194C76C400630AB6 /* iSouvenirMKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C804D9194C76C400630AB6 /* iSouvenirMKAnnotation.m */; };
+		52C804E1194CC3CC00630AB6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C804DF194CC3CC00630AB6 /* AddressBook.framework */; };
+		52C804E2194CC3CC00630AB6 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52C804E0194CC3CC00630AB6 /* AddressBookUI.framework */; };
+		52D110C619524AEC00743FBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52D110C519524AEC00743FBD /* Images.xcassets */; };
+		52EDDB8F1947B8CE00C23986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EDDB8E1947B8CE00C23986 /* Foundation.framework */; };
+		52EDDB911947B8CE00C23986 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EDDB901947B8CE00C23986 /* CoreGraphics.framework */; };
+		52EDDB931947B8CE00C23986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EDDB921947B8CE00C23986 /* UIKit.framework */; };
+		52EDDB991947B8CE00C23986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52EDDB971947B8CE00C23986 /* InfoPlist.strings */; };
+		52EDDB9B1947B8CE00C23986 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDDB9A1947B8CE00C23986 /* main.m */; };
+		52EDDB9F1947B8CE00C23986 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDDB9E1947B8CE00C23986 /* AppDelegate.m */; };
+		52EDDBA81947B8CE00C23986 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EDDBA71947B8CE00C23986 /* XCTest.framework */; };
+		52EDDBA91947B8CE00C23986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EDDB8E1947B8CE00C23986 /* Foundation.framework */; };
+		52EDDBAA1947B8CE00C23986 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EDDB921947B8CE00C23986 /* UIKit.framework */; };
+		52EDDBB21947B8CE00C23986 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52EDDBB01947B8CE00C23986 /* InfoPlist.strings */; };
+		52EDDBB41947B8CE00C23986 /* iSouvenirTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDDBB31947B8CE00C23986 /* iSouvenirTests.m */; };
+		52EDDBBE1947B8DB00C23986 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EDDBBD1947B8DB00C23986 /* CoreLocation.framework */; };
+		52EDDBC01947B8DF00C23986 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EDDBBF1947B8DF00C23986 /* MapKit.framework */; };
+		52EDDBC31947B91600C23986 /* iSouvenirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDDBC21947B91600C23986 /* iSouvenirViewController.m */; };
+		52EDDBC61947B92B00C23986 /* iSouvenirView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52EDDBC51947B92B00C23986 /* iSouvenirView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52EDDBAB1947B8CE00C23986 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52EDDB831947B8CE00C23986 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52EDDB8A1947B8CE00C23986;
+			remoteInfo = iSouvenir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52C804D8194C76C400630AB6 /* iSouvenirMKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iSouvenirMKAnnotation.h; path = iSouvenir/Models/iSouvenirMKAnnotation.h; sourceTree = "<group>"; };
+		52C804D9194C76C400630AB6 /* iSouvenirMKAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iSouvenirMKAnnotation.m; path = iSouvenir/Models/iSouvenirMKAnnotation.m; sourceTree = "<group>"; };
+		52C804DF194CC3CC00630AB6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		52C804E0194CC3CC00630AB6 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		52D110C519524AEC00743FBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52EDDB8B1947B8CE00C23986 /* iSouvenir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSouvenir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EDDB8E1947B8CE00C23986 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52EDDB901947B8CE00C23986 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52EDDB921947B8CE00C23986 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52EDDB961947B8CE00C23986 /* iSouvenir-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSouvenir-Info.plist"; sourceTree = "<group>"; };
+		52EDDB981947B8CE00C23986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52EDDB9A1947B8CE00C23986 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52EDDB9C1947B8CE00C23986 /* iSouvenir-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSouvenir-Prefix.pch"; sourceTree = "<group>"; };
+		52EDDB9D1947B8CE00C23986 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = iSouvenir/AppDelegate.h; sourceTree = "<group>"; };
+		52EDDB9E1947B8CE00C23986 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = iSouvenir/AppDelegate.m; sourceTree = "<group>"; };
+		52EDDBA61947B8CE00C23986 /* iSouvenirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSouvenirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EDDBA71947B8CE00C23986 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52EDDBAF1947B8CE00C23986 /* iSouvenirTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSouvenirTests-Info.plist"; sourceTree = "<group>"; };
+		52EDDBB11947B8CE00C23986 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52EDDBB31947B8CE00C23986 /* iSouvenirTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSouvenirTests.m; sourceTree = "<group>"; };
+		52EDDBBD1947B8DB00C23986 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		52EDDBBF1947B8DF00C23986 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		52EDDBC11947B91600C23986 /* iSouvenirViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iSouvenirViewController.h; path = iSouvenir/Controllers/iSouvenirViewController.h; sourceTree = "<group>"; };
+		52EDDBC21947B91600C23986 /* iSouvenirViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iSouvenirViewController.m; path = iSouvenir/Controllers/iSouvenirViewController.m; sourceTree = "<group>"; };
+		52EDDBC41947B92B00C23986 /* iSouvenirView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iSouvenirView.h; path = iSouvenir/Views/iSouvenirView.h; sourceTree = "<group>"; };
+		52EDDBC51947B92B00C23986 /* iSouvenirView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iSouvenirView.m; path = iSouvenir/Views/iSouvenirView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52EDDB881947B8CE00C23986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C804E1194CC3CC00630AB6 /* AddressBook.framework in Frameworks */,
+				52C804E2194CC3CC00630AB6 /* AddressBookUI.framework in Frameworks */,
+				52EDDBC01947B8DF00C23986 /* MapKit.framework in Frameworks */,
+				52EDDBBE1947B8DB00C23986 /* CoreLocation.framework in Frameworks */,
+				52EDDB911947B8CE00C23986 /* CoreGraphics.framework in Frameworks */,
+				52EDDB931947B8CE00C23986 /* UIKit.framework in Frameworks */,
+				52EDDB8F1947B8CE00C23986 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDDBA31947B8CE00C23986 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDDBA81947B8CE00C23986 /* XCTest.framework in Frameworks */,
+				52EDDBAA1947B8CE00C23986 /* UIKit.framework in Frameworks */,
+				52EDDBA91947B8CE00C23986 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52C804C5194BC5D000630AB6 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				52D110C519524AEC00743FBD /* Images.xcassets */,
+			);
+			name = Ressources;
+			path = iSouvenir/Ressources;
+			sourceTree = "<group>";
+		};
+		52C804D7194C766500630AB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52C804D8194C76C400630AB6 /* iSouvenirMKAnnotation.h */,
+				52C804D9194C76C400630AB6 /* iSouvenirMKAnnotation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		52EDDB821947B8CE00C23986 = {
+			isa = PBXGroup;
+			children = (
+				52C804D7194C766500630AB6 /* Model */,
+				52EDDBC71947B93800C23986 /* Views */,
+				52EDDBC81947B93E00C23986 /* Controllers */,
+				52C804C5194BC5D000630AB6 /* Ressources */,
+				52EDDB941947B8CE00C23986 /* iSouvenir */,
+				52EDDBAD1947B8CE00C23986 /* iSouvenirTests */,
+				52EDDB8D1947B8CE00C23986 /* Frameworks */,
+				52EDDB8C1947B8CE00C23986 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52EDDB8C1947B8CE00C23986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52EDDB8B1947B8CE00C23986 /* iSouvenir.app */,
+				52EDDBA61947B8CE00C23986 /* iSouvenirTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52EDDB8D1947B8CE00C23986 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52C804DF194CC3CC00630AB6 /* AddressBook.framework */,
+				52C804E0194CC3CC00630AB6 /* AddressBookUI.framework */,
+				52EDDBBF1947B8DF00C23986 /* MapKit.framework */,
+				52EDDBBD1947B8DB00C23986 /* CoreLocation.framework */,
+				52EDDB901947B8CE00C23986 /* CoreGraphics.framework */,
+				52EDDB921947B8CE00C23986 /* UIKit.framework */,
+				52EDDBA71947B8CE00C23986 /* XCTest.framework */,
+				52EDDB8E1947B8CE00C23986 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52EDDB941947B8CE00C23986 /* iSouvenir */ = {
+			isa = PBXGroup;
+			children = (
+				52EDDB951947B8CE00C23986 /* Supporting Files */,
+			);
+			path = iSouvenir;
+			sourceTree = "<group>";
+		};
+		52EDDB951947B8CE00C23986 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52EDDB961947B8CE00C23986 /* iSouvenir-Info.plist */,
+				52EDDB971947B8CE00C23986 /* InfoPlist.strings */,
+				52EDDB9A1947B8CE00C23986 /* main.m */,
+				52EDDB9C1947B8CE00C23986 /* iSouvenir-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52EDDBAD1947B8CE00C23986 /* iSouvenirTests */ = {
+			isa = PBXGroup;
+			children = (
+				52EDDBB31947B8CE00C23986 /* iSouvenirTests.m */,
+				52EDDBAE1947B8CE00C23986 /* Supporting Files */,
+			);
+			path = iSouvenirTests;
+			sourceTree = "<group>";
+		};
+		52EDDBAE1947B8CE00C23986 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52EDDBAF1947B8CE00C23986 /* iSouvenirTests-Info.plist */,
+				52EDDBB01947B8CE00C23986 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52EDDBC71947B93800C23986 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				52EDDBC41947B92B00C23986 /* iSouvenirView.h */,
+				52EDDBC51947B92B00C23986 /* iSouvenirView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		52EDDBC81947B93E00C23986 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52EDDB9D1947B8CE00C23986 /* AppDelegate.h */,
+				52EDDB9E1947B8CE00C23986 /* AppDelegate.m */,
+				52EDDBC11947B91600C23986 /* iSouvenirViewController.h */,
+				52EDDBC21947B91600C23986 /* iSouvenirViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52EDDB8A1947B8CE00C23986 /* iSouvenir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EDDBB71947B8CE00C23986 /* Build configuration list for PBXNativeTarget "iSouvenir" */;
+			buildPhases = (
+				52EDDB871947B8CE00C23986 /* Sources */,
+				52EDDB881947B8CE00C23986 /* Frameworks */,
+				52EDDB891947B8CE00C23986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSouvenir;
+			productName = iSouvenir;
+			productReference = 52EDDB8B1947B8CE00C23986 /* iSouvenir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52EDDBA51947B8CE00C23986 /* iSouvenirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EDDBBA1947B8CE00C23986 /* Build configuration list for PBXNativeTarget "iSouvenirTests" */;
+			buildPhases = (
+				52EDDBA21947B8CE00C23986 /* Sources */,
+				52EDDBA31947B8CE00C23986 /* Frameworks */,
+				52EDDBA41947B8CE00C23986 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EDDBAC1947B8CE00C23986 /* PBXTargetDependency */,
+			);
+			name = iSouvenirTests;
+			productName = iSouvenirTests;
+			productReference = 52EDDBA61947B8CE00C23986 /* iSouvenirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52EDDB831947B8CE00C23986 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Tibimac;
+				TargetAttributes = {
+					52EDDBA51947B8CE00C23986 = {
+						TestTargetID = 52EDDB8A1947B8CE00C23986;
+					};
+				};
+			};
+			buildConfigurationList = 52EDDB861947B8CE00C23986 /* Build configuration list for PBXProject "iSouvenir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52EDDB821947B8CE00C23986;
+			productRefGroup = 52EDDB8C1947B8CE00C23986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52EDDB8A1947B8CE00C23986 /* iSouvenir */,
+				52EDDBA51947B8CE00C23986 /* iSouvenirTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52EDDB891947B8CE00C23986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDDB991947B8CE00C23986 /* InfoPlist.strings in Resources */,
+				52D110C619524AEC00743FBD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDDBA41947B8CE00C23986 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDDBB21947B8CE00C23986 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52EDDB871947B8CE00C23986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDDB9F1947B8CE00C23986 /* AppDelegate.m in Sources */,
+				52EDDBC61947B92B00C23986 /* iSouvenirView.m in Sources */,
+				52EDDB9B1947B8CE00C23986 /* main.m in Sources */,
+				52C804DA194C76C400630AB6 /* iSouvenirMKAnnotation.m in Sources */,
+				52EDDBC31947B91600C23986 /* iSouvenirViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDDBA21947B8CE00C23986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDDBB41947B8CE00C23986 /* iSouvenirTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52EDDBAC1947B8CE00C23986 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52EDDB8A1947B8CE00C23986 /* iSouvenir */;
+			targetProxy = 52EDDBAB1947B8CE00C23986 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52EDDB971947B8CE00C23986 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EDDB981947B8CE00C23986 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52EDDBB01947B8CE00C23986 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EDDBB11947B8CE00C23986 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52EDDBB51947B8CE00C23986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52EDDBB61947B8CE00C23986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52EDDBB81947B8CE00C23986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSouvenir/iSouvenir-Prefix.pch";
+				INFOPLIST_FILE = "iSouvenir/iSouvenir-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52EDDBB91947B8CE00C23986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSouvenir/iSouvenir-Prefix.pch";
+				INFOPLIST_FILE = "iSouvenir/iSouvenir-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52EDDBBB1947B8CE00C23986 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSouvenir.app/iSouvenir";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSouvenir/iSouvenir-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iSouvenirTests/iSouvenirTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		52EDDBBC1947B8CE00C23986 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSouvenir.app/iSouvenir";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSouvenir/iSouvenir-Prefix.pch";
+				INFOPLIST_FILE = "iSouvenirTests/iSouvenirTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52EDDB861947B8CE00C23986 /* Build configuration list for PBXProject "iSouvenir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EDDBB51947B8CE00C23986 /* Debug */,
+				52EDDBB61947B8CE00C23986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EDDBB71947B8CE00C23986 /* Build configuration list for PBXNativeTarget "iSouvenir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EDDBB81947B8CE00C23986 /* Debug */,
+				52EDDBB91947B8CE00C23986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EDDBBA1947B8CE00C23986 /* Build configuration list for PBXNativeTarget "iSouvenirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EDDBBB1947B8CE00C23986 /* Debug */,
+				52EDDBBC1947B8CE00C23986 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52EDDB831947B8CE00C23986 /* Project object */;
+}
