@@ -1,6 +1,9 @@
 # iSouvenir
 Exercice "iSouvenir" de la semaine 6 du MOOC "Programmation iPhone et iPad". Réalisation : 11 juin 2014
 
+- ARC désactivé.
+- Structure MVC.
+- Pas de storyboard.
 - Gestion iPhone / iPad (iOS 7).
 - Gestion Orientation Portrait / Paysage.
 - Gestion changement hauteur statusBar.
@@ -12,7 +15,4 @@ Exercice "iSouvenir" de la semaine 6 du MOOC "Programmation iPhone et iPad". Ré
 - Si la fiche et de type "Société" récupération et affichage du nom de la société.
 - Récupération de la miniature de l'image du contact s'il y en a une, sinon image par défaut que mise lors de la création de l'épingle.
 - Personnalisation de l'annotation de la position actuelle de l'utilisateur.
-- Projet sans StoryBoard.
-- Gestion mémoire à la main.
-- Architecture MVC.
 - Code organisé par fonctionnalité (plus simple que d'organiser par "mécanisme").
