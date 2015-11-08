@@ -1,5 +1,6 @@
 # iSouvenir
-Exercice "iSouvenir" de la semaine 6 du MOOC "Programmation iPhone et iPad". Réalisation : 11 juin 2014
+Exercice "iSouvenir" de la semaine 6 du MOOC "Programmation iPhone et iPad".<br/>
+Réalisation : 11 juin 2014
 
 [![iSouvenir](http://www.tibimac.com/uploads_forums/github/iSouvenir1.png)](https://youtu.be/SpBXERSZPzQ "iSouvenir")
 [![iSouvenir](http://www.tibimac.com/uploads_forums/github/iSouvenir2.png)](https://youtu.be/SpBXERSZPzQ "iSouvenir")
